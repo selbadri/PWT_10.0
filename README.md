@@ -1,5 +1,5 @@
 # PWT 10.0
-Penn World Table version 10.0
+## Penn World Table version 10.0
 
 PWT version 10.0 is a database with information on relative levels of income, output, input and productivity, covering 183 countries between 1950 and 2019. For questions not covered in the documentation, please contact pwt@rug.nl. Access to the data is provided in this repo.
 
