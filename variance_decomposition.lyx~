@@ -250,8 +250,8 @@ var\left(log(y)\right)=var\left(log(A)\right)+\alpha^{2}var\left(log(k)\right)+(
 \begin_layout Standard
 \begin_inset Formula 
 \begin{align*}
-var\left(log(y)\right) & =var\left(log(A)\right)+\alpha^{2}var\left(log(k)\right)+(1-\alpha)^{2}var\left(log(avh)\right)+(1-\alpha)^{2}var\left(log(h)\right)+2(1-\alpha)^{2}cov\left(log(avh),log(h)\right)\\
- & +2\alpha(1-\alpha)cov\left(log(k),log(avh)\right)+2\alpha(1-\alpha)cov\left(log(k),log(h)\right)\\
+var\left(log(y)\right) & =var\left(log(A)\right)+\alpha^{2}var\left(log(k)\right)+(1-\alpha)^{2}\left\{ var\left(log(avh)\right)+var\left(log(h)\right)+2cov\left(log(avh),log(h)\right)\right\} \\
+ & +2\alpha(1-\alpha)\left\{ cov\left(log(k),log(avh)\right)+cov\left(log(k),log(h)\right)\right\} \\
  & +\alpha cov\left(log(A),log(k)\right)+(1-\alpha)cov\left(log(A),log(avh)\right)+(1-\alpha)cov\left(log(A),log(h)\right)
 \end{align*}
 
