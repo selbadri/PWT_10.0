@@ -1,0 +1,603 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section*
+Development Accounting
+\end_layout
+
+\begin_layout Subsection*
+The Aggregate Technology
+\end_layout
+
+\begin_layout Standard
+We start by assuming that the technology to produce aggregate output is
+ given by
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Y_{i}=A_{i}K_{i}^{\alpha_{i}}\left(avh_{i}\cdot h_{i}\cdot L_{i}\right)^{(1-\alpha_{i})},
+\]
+
+\end_inset
+
+where
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Y_{i}:$
+\end_inset
+
+ real GDP in country 
+\begin_inset Formula $i$
+\end_inset
+
+, measured at PPP
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{i}:$
+\end_inset
+
+total factor productivity in country 
+\begin_inset Formula $i$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K_{i}:$
+\end_inset
+
+real physical capital in country 
+\begin_inset Formula $i$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $h_{i}:$
+\end_inset
+
+average human capital per worker in country 
+\begin_inset Formula $i$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $avh_{i}:$
+\end_inset
+
+average hours worked per worker in country 
+\begin_inset Formula $i$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L_{i}:$
+\end_inset
+
+labour force in country 
+\begin_inset Formula $i$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Measuring Standards of Living
+\end_layout
+
+\begin_layout Standard
+There are a few alternative to measuring standards of living.
+ 
+\end_layout
+
+\begin_layout Enumerate
+A first approach focuses on the most widely used measure of standards of
+ living, output per capita
+\begin_inset Formula 
+\[
+\frac{Y_{i}}{N_{i}}=A_{i}\left(\frac{K_{i}}{N_{i}}\right)^{\alpha_{i}}\left(avh_{i}\cdot h_{i}\cdot\frac{L_{i}}{N_{i}}\right)^{(1-\alpha_{i})}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y_{i}=A_{i}\left(k_{i}\right)^{\alpha_{i}}\left(avh_{i}\cdot h_{i}\right)^{(1-\alpha_{i})}\left(\frac{L_{i}}{N_{i}}\right)^{(1-\alpha_{i})}
+\]
+
+\end_inset
+
+Under this approach, differences in standards of living are driven by gaps
+ in total factor productivity 
+\begin_inset Formula $A_{i}$
+\end_inset
+
+, in capital per capita 
+\begin_inset Formula $\alpha_{i}$
+\end_inset
+
+, in average hours worked per capita 
+\begin_inset Formula $avh_{i},$
+\end_inset
+
+in average human capital per capita 
+\begin_inset Formula $h_{i},$
+\end_inset
+
+and in the employment to population ration 
+\begin_inset Formula $\frac{L_{i}}{N_{i}}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+A second approach re-arranges the production function to express output
+ per-capita (or per-worker) as a function of country 
+\begin_inset Formula $i's$
+\end_inset
+
+ capital-output ratio.
+ Starting with 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{Y_{i}}{N_{i}}=A_{i}\left(\frac{K_{i}}{N_{i}}\right)^{\alpha_{i}}\left(\frac{avh_{i}\cdot h_{i}\cdot L_{i}}{N_{i}}\right)^{(1-\alpha_{i})},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and multiplying and divide the right hand side by 
+\begin_inset Formula $\left(\frac{Y_{i}}{N_{i}}\right)^{\alpha_{i}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(\frac{Y_{i}}{N_{i}}\right)=A_{i}\left(\frac{K_{i}}{N_{i}}\frac{N_{i}}{Y_{i}}\right)^{\alpha_{i}}\left(\frac{avh_{i}\cdot h_{i}\cdot L_{i}}{N_{i}}\right)^{(1-\alpha_{i})}\left(\frac{Y_{i}}{N_{i}}\right)^{\alpha_{i}},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(\frac{Y_{i}}{N_{i}}\right)=A_{i}^{\left(\frac{1}{1-\alpha_{i}}\right)}\left(\frac{K_{i}}{Y_{i}}\right)^{\left(\frac{\alpha_{i}}{1-\alpha_{i}}\right)}\left(\frac{avh_{i}\cdot h_{i}\cdot L_{i}}{N_{i}}\right),
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+we obtain that 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y_{i}=A_{i}^{\left(\frac{1}{1-\alpha_{i}}\right)}\left(\frac{K_{i}}{Y_{i}}\right)^{\left(\frac{\alpha_{i}}{1-\alpha_{i}}\right)}\left(avh_{i}\cdot h_{i}\right)\left(\frac{L_{i}}{N_{i}}\right).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note that the second approach is equivalent to the first approach, so both
+ should yield the same results.
+\end_layout
+
+\begin_layout Enumerate
+A third approach focuses on differences in GDP per worker.
+ To be precise
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{Y_{i}}{L_{i}}=A_{i}\left(\frac{K_{i}}{L_{i}}\right)^{\alpha_{i}}\left(avh_{i}\cdot h_{i}\right)^{(1-\alpha_{i})},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y_{i}^{pw}=A_{i}\left(k_{i}^{pw}\right)^{\alpha_{i}}\left(avh_{i}\cdot h_{i}\right)^{(1-\alpha_{i})}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Naturally, this last equation can be re-aranged so as to express differences
+ in income per-worker as a function of the capital-output ratio as well.
+\end_layout
+
+\begin_layout Subsection*
+Implementation
+\end_layout
+
+\begin_layout Standard
+Continue here.
+ The idea is that we take logs, normalize the US to 1, and express differences
+ in standards of living relative to the US.
+ Gaps with the US will be given by gaps in TFP and factors, conditional
+ on alphas being the same.
+ The next step is to perform a variance (in logs) decomposition to see the
+ shares of diferences in standards of living that can be accounted for by
+ factors.
+\end_layout
+
+\begin_layout Standard
+Inputs for this section: we want to have charts of the normalized variables
+ like in Hsieh and Klenow (AEJ Macro,2010).
+ On the x axis we want to show GDP per capital at PPP relative to the US,
+ and in the Y axis capital per worker, average hours, average human capital,
+ labour force to population ratios, and capital output ratios.
+ We also want to have (a sorted table) with the countries in our sample.
+\end_layout
+
+\begin_layout Standard
+A potential concern is that our results are driven by sample selection.
+ Here we want to do two robustness checks.
+ First, try to create an indiator variable for the countries in Caselli's
+ sample, and redo de analysis for those countries only.
+ Another concern is that we cut our sample too short, because the goal was
+ to have a sample of countries with observations for all variables.
+ I think the limiting variable here is 
+\begin_inset Formula $avh$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsection*
+Variance Decomposition
+\end_layout
+
+\begin_layout Standard
+Let the per-worker production function be
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=Ak^{\alpha}\left(avh\cdot h\right)^{(1-\alpha)},
+\]
+
+\end_inset
+
+and define 
+\begin_inset Formula $y_{hk}$
+\end_inset
+
+ as the output that is purely prodcuced by factors.
+ To be precise
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y_{hk}=k^{\alpha}\left(avh\cdot h\right)^{(1-\alpha)}.
+\]
+
+\end_inset
+
+It follows that
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=Ay_{hk},
+\]
+
+\end_inset
+
+and
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+log\left(y\right)=log\left(A\right)+log\left(y_{hk}\right),
+\]
+
+\end_inset
+
+with
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+log\left(y_{hk}\right)=\alpha log\left(k\right)+(1-\alpha)log\left(avh\cdot h\right)
+\]
+
+\end_inset
+
+To perform an exact variance decomposition in closed form, we proceed as
+ follows:
+\end_layout
+
+\begin_layout Enumerate
+Compute 
+\begin_inset Formula $var\left(log(y)\right).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Fix the value of 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ at 
+\begin_inset Formula $\bar{\alpha}=1/3$
+\end_inset
+
+ (or the mean/median of the sample) and compute 
+\begin_inset Formula $var\left(\left.log(y)\right|\alpha=\bar{\alpha}\right).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Define 
+\begin_inset Formula $var\left(log(\tilde{y})\right)=var\left(\left.log(y)\right|\alpha=\bar{\alpha}\right).$
+\end_inset
+
+Decompose 
+\begin_inset Formula $var\left(log(\tilde{y})\right).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It follows that
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+log\left(\tilde{y}\right)=log\left(A\right)+log\left(\tilde{y}_{hk}\right)
+\]
+
+\end_inset
+
+Applying the variance operator on both sides, we obtain
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+var\left(log(\tilde{y})\right)=var\left(log(A)\right)+var\left(log(\tilde{y}_{hk})\right)+cov\left(log(A),log(\tilde{y}_{hk})\right).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+The second term is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+var\left(log(\tilde{y}_{hk})\right)=\bar{\alpha}^{2}var\left(log(k)\right)+(1-\bar{\alpha})^{2}var\left(log(avh\cdot h)\right)+2\bar{\alpha}(1-\bar{\alpha})cov\left(log(k),log(avh\cdot h)\right)
+\]
+
+\end_inset
+
+Decomposing the last two terms
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+var\left(log(avh\cdot h)\right) & =var\left(log(avh)+log(h)\right)\\
+ & =var\left(log(avh)\right)+var\left(log(h)\right)+2cov\left(log(avh),log(h)\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+cov\left(log(k),log(avh\cdot h)\right) & =cov\left(log(k),log(avh)+log(h)\right)\\
+ & =cov\left(log(k),log(avh)\right)+cov\left(log(k),log(h)\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+var\left(log(\tilde{y}_{hk})\right) & =\bar{\alpha}^{2}var\left(log(k)\right)+(1-\bar{\alpha})^{2}var\left(log(avh\cdot h)\right)+2\bar{\alpha}(1-\bar{\alpha})cov\left(log(k),log(avh\cdot h)\right)\\
+ & =\bar{\alpha}^{2}var\left(log(k)\right)+(1-\bar{\alpha})^{2}var\left(log(avh\cdot h)\right)+2\bar{\alpha}(1-\bar{\alpha})cov\left(log(k),log(avh\cdot h)\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+The remaining covariance is just 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+cov\left(log(A),log(\tilde{y}_{hk})\right) & =cov\left(log(A),\alpha log\left(k\right)+(1-\alpha)log(avh)+(1-\alpha)log(h)\right)\\
+ & =\bar{\alpha}cov\left(log(A),log(k)\right)+(1-\bar{\alpha})cov\left(log(A),log(avh)\right)+(1-\bar{\alpha})cov\left(log(A),log(h)\right)
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+It follows that
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+var\left(log(\tilde{y})\right) & =var\left(log(A)\right)+\bar{\alpha}^{2}var\left(log(k)\right)+(1-\bar{\alpha})^{2}var\left(log(avh)\right)+(1-\bar{\alpha})^{2}var\left(log(h)\right)\\
+ & +2(1-\bar{\alpha})^{2}cov\left(log(avh),log(h)\right)\\
+ & +2\bar{\alpha}(1-\bar{\alpha})cov\left(log(k),log(avh)\right)+2\bar{\alpha}(1-\bar{\alpha})cov\left(log(k),log(h)\right)\\
+ & +\bar{\alpha}cov\left(log(A),log(k)\right)+(1-\bar{\alpha})cov\left(log(A),log(avh)\right)+(1-\bar{\alpha})cov\left(log(A),log(h)\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
